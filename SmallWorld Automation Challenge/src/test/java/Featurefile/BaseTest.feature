@@ -19,3 +19,4 @@ Feature: BaseTest
     When I log in as a standard user
     And I select a product named "Invalid Product"
     Then I should see an error message
+
