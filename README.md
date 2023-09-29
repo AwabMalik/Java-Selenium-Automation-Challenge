@@ -1,6 +1,15 @@
 # SmallWorld-Automation-Challenge
 
-Automate the Web UI for the Website https://www.saucedemo.com/ with Cucumber / Gherkins and on language that we are using on this Project is Java with Selenium including the Allure Report result in this Project **
+Automate the Web UI for the Website https://www.saucedemo.com/ with Cucumber / Gherkins and on language that we are using on this Project is Java with Selenium including the Allure Report result in this Project
+
+**_Worked Done in this Project_** 
+1. To log on to the Web application.
+2. Select a Product from the Product Page list.
+3. Add to Cart Product into the cart.
+4. Goto Cart List.
+5. Checkout from the Cart Page with all details Entered.
+6. Checkout Overview for Product Payment, Shipping, and Price.
+7. Checkout Complete and Exit. 
 
 **How to Execute the Project**
 
