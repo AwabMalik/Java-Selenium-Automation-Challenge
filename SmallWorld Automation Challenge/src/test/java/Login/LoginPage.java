@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class LoginPage {
     private WebDriver driver;
 
-    // Web elements
+    
     private By usernameField = By.id("user-name");
     private By passwordField = By.id("password");
     private By loginButton = By.id("login-button");
@@ -16,7 +16,7 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    // Actions
+    
     public void enterUsername(String username) {
         driver.findElement(usernameField).sendKeys(username);
     }
