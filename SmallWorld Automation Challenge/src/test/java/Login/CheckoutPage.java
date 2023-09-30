@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class CheckoutPage {
     private WebDriver driver;
 
-    // Web elements
+    
     private By firstNameField = By.id("first-name");
     private By lastNameField = By.id("last-name");
     private By zipCodeField = By.id("postal-code");
@@ -19,7 +19,7 @@ public class CheckoutPage {
         this.driver = driver;
     }
 
-    // Actions
+    
     public void enterFirstName(String firstName) {
         driver.findElement(firstNameField).sendKeys(firstName);
     }
