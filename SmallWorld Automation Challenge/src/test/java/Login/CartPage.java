@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class CartPage {
     public WebDriver driver;
 
-    // Web elements
+
     private By checkoutButton = By.id("checkout");
 
     private By cartButton = By.cssSelector("div[id='shopping_cart_container']");
@@ -15,7 +15,7 @@ public class CartPage {
         this.driver = driver;
     }
 
-    // Actions
+    
     public void clickCheckoutButton() throws InterruptedException {
         Thread.sleep(3000);
         driver.findElement(checkoutButton).click();
